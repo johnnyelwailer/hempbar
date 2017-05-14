@@ -1,12 +1,16 @@
 ---
-title: Phenomic base theme
-layout: Homepage
-hero: https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg
-# hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 cta:
   label: About this theme
-  link: "about"
+  link: about
+hero: 'https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg'
+layout: Homepage
+title: Hempbar
 ---
+Wilkommen zu Hempbar.ch!
+
+*Work in progress...*
+
+## Phenomic
 
 Hi there. Before having fun with Phenomic, be sure to read the documentation :
 
@@ -21,11 +25,11 @@ some projects share their source code!
 
 <!-- demo to show you that you can use "assets" folder -->
 <small>
-  Built with
-  <a href="https://facebook.github.io/react/">
-    <img alt="" src="assets/react.svg" width="16" height="16" />
-    React
-  </a>.
+Built with
+<a href="https://facebook.github.io/react/">
+<img alt="" src="assets/react.svg" width="16" height="16" />
+React
+</a>.
 </small>
 
 ---
@@ -33,12 +37,12 @@ some projects share their source code!
 You may want to take a look at the [404.html](/404.html) and tweak the render.
 
 If you need to make adjustments, you can directly alter page layouts in
-``src/layouts/``;
+`src/layouts/`;
 small things like the header, footer, buttons and so on can be changed in
-``src/components/``;
-and for colors and common CSS variables, you can modify ``postcss.config.js``.
+`src/components/`;
+and for colors and common CSS variables, you can modify `postcss.config.js`.
 
-_You feel like the base theme is not enough or you just saw something wrong?_
+*You feel like the base theme is not enough or you just saw something wrong?*
 [Please help us make Phenomic better!](https://phenomic.io/contributing/)
 
 ---
