@@ -2,7 +2,7 @@ backend:
   name: github
   repo: johnnyelwailer/hempbar # Path to your Github repository
   branch: master # Branch to update
-media_folder: "images/uploads"
+media_folder: "content/assets/uploads"
 collections:
   - name: "pages"
     label: "Pages"
