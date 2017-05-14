@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: owner-name/repo-name # Path to your Github repository
+  repo: johnnyelwailer/hempbar # Path to your Github repository
   branch: master # Branch to update
 media_folder: "images/uploads"
 collections:
