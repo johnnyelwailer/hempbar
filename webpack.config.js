@@ -1,6 +1,7 @@
 import path from "path"
 
 import webpack from "webpack"
+import CopyWebpackPlugin from "copy-webpack-plugin"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
 import { phenomicLoader } from "phenomic"
 import PhenomicLoaderFeedWebpackPlugin
@@ -145,7 +146,7 @@ export default (config = {}) => {
 
         // copy assets and return generated path in js
         {
-          test: /\.(html|ico|jpe?g|png|gif|eot|otf|webp|ttf|woff|woff2)$/,
+          test: /\.(html|yml|ico|jpe?g|png|gif|eot|otf|webp|ttf|woff|woff2)$/,
           loader: "file-loader",
           query: {
             name: "[path][name].[hash].[ext]",
@@ -207,6 +208,10 @@ export default (config = {}) => {
         filename: "[name].[hash].css",
         disable: config.dev,
       }),
+
+      new CopyWebpackPlugin([
+        {from: 'admin', to: 'admin'},
+      ]),
 
       ...config.production && [
         new webpack.optimize.UglifyJsPlugin(

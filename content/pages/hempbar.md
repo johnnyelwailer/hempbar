@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: Page
 title: hempbar
 ---
 *Work in Progress…*
