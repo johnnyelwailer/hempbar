@@ -2,12 +2,12 @@ backend:
   name: github
   repo: johnnyelwailer/hempbar # Path to your Github repository
   branch: master # Branch to update
-public_folder: "content" # the same as your phenomic.source in your package.json
-media_folder: "content/assets" # the same as your phenomic.assets in your package.json
+public_folder: "assets" # the same as your phenomic.source in your package.json
+media_folder: "assets" # the same as your phenomic.assets in your package.json
 collections:
   - name: "pages"
     label: "Pages"
-    folder: "content"
+    folder: "/"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "Page"}
