@@ -1,9 +1,9 @@
 ---
-hero: 'https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg'
 layout: Homepage
-title: Hempbar
+hero: /content/18491643_1828737914054650_8477532200301750077_o.jpg
+title: HEMPbar
 ---
-Wilkommen zu Hempbar.ch!
+Wilkommen zu HEMPbar.ch!
 
 *Work in progress...*
 
