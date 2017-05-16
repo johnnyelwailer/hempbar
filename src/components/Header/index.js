@@ -14,8 +14,7 @@ const Header = (props, { metadata: { pkg } }) => (
         <Link
           className={ styles.link }
           to={ "/" }
-        >
-          { "Home" }
+        ><img src="/assets/logo.svg" height="150"/>
         </Link>
       </div>
       <div className={ styles.navPart2 }>

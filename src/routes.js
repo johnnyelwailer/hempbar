@@ -7,7 +7,7 @@ import Page from "./layouts/Page"
 import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
 import Post from "./layouts/Post"
-
+const Panel = (props) => <Page {...props} />
 const PageContainer = (props) => (
   <PhenomicPageContainer
     { ...props }
@@ -16,6 +16,7 @@ const PageContainer = (props) => (
       PageError,
       Homepage,
       Post,
+      Panel
     }}
   />
 )

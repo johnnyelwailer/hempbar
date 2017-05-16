@@ -65,7 +65,8 @@ const Page = (
         >
           <div className={ styles.header }>
             <div className={ styles.wrapper }>
-              <h1 className={ styles.heading }>{ head.title }</h1>
+              {/*<img src="/assets/logo.svg" height="300"/>*/}
+              {/*<h1 className={ styles.heading }>{ head.title }</h1>*/}
               {
                 head.cta &&
                 <Link to={ head.cta.link }>

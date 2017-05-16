@@ -6,11 +6,19 @@ public_folder: "/assets" # the same as your phenomic.source in your package.json
 media_folder: "content/assets" # the same as your phenomic.assets in your package.json
 collections:
   - name: "pages"
-    label: "Pages"
+    label: "Seiten"
     folder: "content"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "Page"}
       - {label: "Hero", name: "hero", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "panels"
+    label: "Kontakt-Informationen"
+    folder: "content/panels"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "Panel"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

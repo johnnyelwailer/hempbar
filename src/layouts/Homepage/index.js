@@ -1,12 +1,12 @@
 import React from "react"
 
-import LatestPosts from "../../components/LatestPosts"
+import Panels from "../../components/Panels"
 import Page from "../Page"
 
 const Homepage = (props) => {
   return (
     <Page { ...props }>
-      <LatestPosts />
+      <Panels />
     </Page>
   )
 }

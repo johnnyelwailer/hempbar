@@ -18,6 +18,22 @@ const DefaultHeadMeta = (props, { metadata: { pkg } }) => (
         "?features=es6&flags=gated" },
         ...props.scripts ? props.scripts : [],
       ] }
+      link={
+        [ 
+           {
+             rel: "icon",
+              type: "image/png",
+              sizes: "32x32",
+              href: "/assets/favicon-32x32.png",
+            },
+            {
+              rel: "icon",
+              type: "image/png",
+              sizes: "16x16",
+              href: "/assets/favicon-16x16.png",
+            },
+        ]
+      }
     />
 
     { /* meta viewport safari/chrome/edge */ }
