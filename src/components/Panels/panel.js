@@ -4,13 +4,16 @@ import Loading from "../../components/Loading"
 
 import { Link } from "phenomic"
 
+import 'whatwg-fetch'
 
 class Panel extends React.Component {
     componentWillMount() {
         this.setState({page: "", title: this.props.page.title, url: this.props.page.__url, loading: true})
-        fetch(this.props.page.__dataUrl).then(r => r.json()).then(r => {
-            this.setState({page: r, loading: false})
-        })
+        if (typeof window !== "undefined") {
+            window.fetch(this.props.page.__dataUrl).then(r => r.json()).then(r => {
+                this.setState({page: r, loading: false})
+            })
+        }
     }
     render() {
         
