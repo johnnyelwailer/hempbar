@@ -5,7 +5,6 @@ import Panel from "./Panel"
 import styles from "./index.css"
 
 const PagesList = ({ pages }) => {
-    console.log(pages)
   return (
     <div>
       {

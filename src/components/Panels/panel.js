@@ -3,14 +3,12 @@ import React, { PropTypes } from "react"
 import Loading from "../../components/Loading"
 
 import { Link } from "phenomic"
-import styles from "./index.css"
 
 
 class Panel extends React.Component {
     componentWillMount() {
         this.setState({page: "", title: this.props.page.title, url: this.props.page.__url, loading: true})
         fetch(this.props.page.__dataUrl).then(r => r.json()).then(r => {
-            console.log(r)
             this.setState({page: r, loading: false})
         })
     }
