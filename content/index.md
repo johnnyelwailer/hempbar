@@ -3,6 +3,8 @@ layout: Homepage
 hero: /assets/hero.jpg
 title: HEMPbar
 ---
+![logo](/assets/Logo_color1.svg)
+
 Wilkommen zu HEMPbar.ch!
 
 *Work in progress...*
