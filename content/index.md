@@ -1,6 +1,6 @@
 ---
 layout: Homepage
-hero: /assets/18491643_1828737914054650_8477532200301750077_o.jpg
+hero: /assets/hero.jpg
 title: HEMPbar
 ---
 Wilkommen zu HEMPbar.ch!
