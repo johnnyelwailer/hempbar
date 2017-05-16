@@ -1,5 +1,5 @@
 import React, { PropTypes } from "react"
-import Panel from "./Panel"
+import Panel from "./panel"
 
 
 import styles from "./index.css"
