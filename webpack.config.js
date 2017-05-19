@@ -209,10 +209,6 @@ export default (config = {}) => {
         disable: config.dev,
       }),
 
-      new CopyWebpackPlugin([
-        {from: 'admin', to: 'admin'},
-      ]),
-
       ...config.production && [
         new webpack.optimize.UglifyJsPlugin(
           { compress: { warnings: false } }
