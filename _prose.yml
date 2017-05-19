@@ -1,0 +1,27 @@
+prose:
+  rooturl: 'content'
+  ignore: ['404.md']
+  # siteurl: 'http://prose.github.io/starter/'
+  # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'content/assets'
+  ignore:
+  metadata:
+    content:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "Page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "Panel"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
