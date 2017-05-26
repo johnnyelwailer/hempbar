@@ -1,4 +1,4 @@
-import React from "react"
+import React, { PropTypes } from "react"
 
 import Panels from "../../components/Panels"
 import Page from "../Page"
@@ -12,5 +12,11 @@ const Homepage = (props) => {
     </Page>
   )
 }
+
+Homepage.propTypes = {
+  head: PropTypes.any,
+  __url: PropTypes.string,
+}
+
 
 export default Homepage

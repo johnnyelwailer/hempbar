@@ -23,6 +23,7 @@ const PageContainer = (props) => (
 )
 
 function userRedirect(nextState, replace) {
+  if (typeof window == "undefined") return;
   const availableLanguages = ["de", "fr"];
   const path = nextState.location.pathname.split('/').filter(p => p != "");
   const lang = path[0];
