@@ -21,8 +21,27 @@ const PageContainer = (props) => (
   />
 )
 
+function userRedirect(nextState, replace) {
+  const availableLanguages = ["de", "fr"];
+  const path = nextState.location.pathname.split('/').filter(p => p != "");
+  const lang = path[0];
+  if (availableLanguages.includes(lang)) {
+    return; 
+  }
+  var userLang = navigator.language.split('-')[0];
+  var defaultLanguage =  availableLanguages.includes(userLang) ? userLang : 'de';
+  var redirectPath = defaultLanguage + nextState.location.pathname
+  replace({
+    pathname: redirectPath
+  });
+}
+
 export default (
   <Route component={ AppContainer }>
-    <Route path="*" component={ PageContainer } />
+    {/*<Route path=":lang">
+
+      <Route path="/" component={ PageContainer } />
+    </Route>*/}
+    <Route path="*" onEnter={userRedirect}  component={ PageContainer }  />
   </Route>
 )

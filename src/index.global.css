@@ -73,13 +73,17 @@ body {
 }
 
 /* minimal styling, prefer removing this and use local styles */
-a {
+h3 a {
   color: inherit;
   text-decoration: none;
 
   &:hover {
     text-decoration: underline;
   }
+}
+
+a {
+  color: var(--colorPrimary);
 }
 
 hr {

@@ -3,16 +3,11 @@ import enhanceCollection from "phenomic/lib/enhance-collection"
 
 import PanelList from "./panelList"
 
-// import styles from "./index.css"
-
-const defaultNumberOfPanels = 2
-
 const panels = (props, { collection }) => {
   const panels = enhanceCollection(collection, {
-    filter: { layout: "Panel" },
-    sort: "sort",
+    filters: [{ layout: "Panel" }, (item) => item.__url.split("/").filter(p => p != "")[0] == props.lang],
+    sort: "title",
   })
-  .slice(0, props.numberOfPanels || defaultNumberOfPanels)
 
   return (
     <div>
@@ -23,6 +18,7 @@ const panels = (props, { collection }) => {
 
 panels.propTypes = {
   numberOfPanels: PropTypes.number,
+  lang: PropTypes.string,
 }
 
 panels.contextTypes = {

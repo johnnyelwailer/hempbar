@@ -4,7 +4,7 @@ hero: /assets/hero.jpg
 title: HEMPbar
 ---
 
-## Wilkommen zu HEMPbar.ch!
+## HEMPbar eröffnet am Donnerstag den 1. Juni 2017!
 
 *Work in progress...*
 

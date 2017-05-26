@@ -18,6 +18,9 @@ const Header = (props, { metadata: { pkg } }) => (
         </Link>
       </div>
       <div className={ styles.navPart2 }>
+        <a href="/de" className={ styles.link }>DE </a>
+        <span className={ styles.link }>|</span>
+        <a href="/fr" className={ styles.link }> FR</a>
         {
           pkg.twitter &&
           <a

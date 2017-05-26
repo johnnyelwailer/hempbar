@@ -15,9 +15,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: calc(var(--maxWidth) + (var(--nav-item-padding) * 2));
+  /*max-width: calc(var(--maxWidth) + (var(--nav-item-padding) * 2));*/
   margin: 0 auto;
   margin-left: 0;
+  margin-right: 12px;
   padding: 0;
   line-height: 3rem;
 }
@@ -30,7 +31,7 @@
 
 .link {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding: 0 var(--nav-item-padding);
   color: inherit;
   text-decoration: none !important;
