@@ -47,6 +47,11 @@
   }
 }
 
+.link img {
+  height: 10rem;
+  height: 24vh;
+}
+
 .link svg {
   fill: currentColor;
   opacity: 0.5;

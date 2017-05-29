@@ -2,8 +2,9 @@
 layout: Panel
 title: Kontakt
 ---
-Tel. [032 333 33 33](tel:0323333333)
-
 [info@hempbar.ch](mailto:info@hempbar.ch)
 
 [HEMPbar auf Facebook](https://www.facebook.com/hempbar.ch/)
+
+Tel. [032 322 14 63](tel:0323221463)  
+Rufen Sie uns an und wir liefern Ihnen bis vors Haus!

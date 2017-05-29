@@ -2,11 +2,11 @@
 layout: Panel
 title: Heuers d'ouvertures
 ---
-Lu à Me de 10:00 à 18:30h  
-Je de 10:00 à 21:00h  
-Ve de 10:00 à 18:30h  
-Sa de 10:00 à 17 :00h  
+**Magasin**   
+Lu Ma Me & Ve de 10 à 19h  
+Je de 10 à 20h  
+Sa de 10 à 17h  
+Di fermé  
 
 **Service courrier**  
-Lu à Ve de 10:00 à 21:00h  
-Sa de 10:00 à 22:00h  
+Lu-Sa de 9 à 21h 

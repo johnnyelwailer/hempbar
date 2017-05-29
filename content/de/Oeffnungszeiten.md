@@ -2,11 +2,12 @@
 layout: Panel
 title: Öffnungszeiten
 ---
-Mo bis Mi von 10:00 bis 18:30h  
-Do von 10:00 bis 21:00h  
-Fr von 10:00 bis 18:30h  
-Sa von 10:00 bis 17 :00h  
+**Laden**   
+Mo Di Mi & Fr 10-19h  
+Do 10-20h  
+Sa 10-17h  
+So geschlossen  
 
 **Kurierservice**  
-Mo bis Do von 10:00 bis 21:00h  
-Sa von 10:00 bis 22:00h  
+Mo-Sa 9-21h 
+
