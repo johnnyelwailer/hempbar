@@ -93,3 +93,45 @@ hr {
   opacity: 0.2;
   margin: 2rem 0;
 }
+
+
+:root {
+--image-reel-height: 15rem;
+}
+.image-reel {
+  height: var(--image-reel-height);
+}
+.image-reel .wide {
+  height: var(--image-reel-height);
+  position: absolute;
+  /*left: 5%;
+  width: 90%;*/
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+}
+
+.image-reel .wide a {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+}
+
+
+.image-reel .wide .align-top {
+  align-items: flex-start;
+}
+
+.image-reel .wide .align-center {
+  align-items: center;
+}
+
+.image-reel .wide .align-bottom {
+  align-items: flex-end;
+}
+
+.image-reel .wide a img {
+  width: 100%;
+  flex: 0;
+}
+

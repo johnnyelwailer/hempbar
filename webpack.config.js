@@ -8,6 +8,7 @@ import PhenomicLoaderFeedWebpackPlugin
   from "phenomic/lib/loader-feed-webpack-plugin"
 import PhenomicLoaderSitemapWebpackPlugin
   from "phenomic/lib/loader-sitemap-webpack-plugin"
+import PluginPanelReadBody from "./plugin-panel-read-body"
 
 import pkg from "./package.json"
 
@@ -22,7 +23,6 @@ export default (config = {}) => {
     delete require.cache[postcssPluginFile]
     return require(postcssPluginFile)(config)
   }
-
   return {
     ...config.dev && {
       devtool: "#cheap-module-eval-source-map",
@@ -38,9 +38,10 @@ export default (config = {}) => {
           loader: phenomicLoader,
           query: {
             context: path.join(__dirname, config.source),
-            // plugins: [
-            //   ...require("phenomic/lib/loader-preset-markdown").default
-            // ]
+            plugins: [ 
+              ...require("phenomic/lib/loader-preset-markdown").default, 
+              PluginPanelReadBody 
+            ]
             // see https://phenomic.io/docs/usage/plugins/
           },
         },
@@ -164,7 +165,6 @@ export default (config = {}) => {
     },
 
     plugins: [
-
       // You should be able to remove the block below when the following
       // issue has been correctly handled (and postcss-loader supports
       // "plugins" option directly in query, see postcss-loader usage above)

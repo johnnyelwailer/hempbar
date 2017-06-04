@@ -1,13 +1,16 @@
 ---
 layout: Homepage
 hero: /assets/hero.jpg
-title: HEMPbar
+title: HEMPbar.ch - CBD-Magasin de Cannabis à Bienne
+description: Le HEMPbar à Bienne fourni des produits CBD, de jus pressés tout frais, un VapRoom pour séjourner et un service de livraison.
 ---
 
-## L'ouverture du HEMPbar est le jeudi 1er juin 2017!
+## Le HEMPbar est ouvert depuis le 1er juin 2017!
 
-*Work in progress...*
+Le HEMPbar.ch à Bienne veut satisfaire la demande après les produits CBD. Le bien-être de l'humain et au centre de notre philosophie. 
 
-Le HEMPbar.ch est fourni par l'entreprise BioCan SA avec matériaux primaires et produits de chanvre de haute qualité comme une sélection de produits dans le domaine des produits quotidiens et cosmétiques. 
+Le but de l'entreprise et notre vision est d'informer tout le monde de toute âge entièrement sur le Cannabis et sur la consommation des produits de Cannabis. Ainsi que du matière première de qualité, des fleurs de chanvre CBD, gouttes CBD, huiles CBD et des capsules, le HEMPbar.ch vous offre le premier "VapRoom" dans un local, dans on peut déguster directement les produits legaux par un Vaporizer. 
 
-L'offre de base contient de la matière première de haute qualité, fleurs de chanvre CBD, gouttes CBD, huiles CBD et des capsules à l'huile de semence de chanvre et des produits quotidiens. Le HEMPbar offre la possibilité d'acheter et consommer les Fleurs CBD directement et légalement dans le bar avec un vaporisateur. 
+Notre Saftbar offre des jus pressés tout frais d'une selection individuelle des fruits et des légumes. 
+
+Vient voir et laisse-toi gâter !
