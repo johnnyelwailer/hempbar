@@ -14,46 +14,53 @@
 }
 
 :root {
---image-reel-height: 25vh;
-}
-.imageReel {
-  height: var(--image-reel-height);
+--image-reel-height: 6rem;
 }
 .imageReel .wide {
-  height: var(--image-reel-height);
-  position: absolute;
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center;
-  flex-wrap: wrap;
+  overflow: hidden;
 }
-
 
 
 .imageReel .wide a {
-  flex: 1;
   overflow: hidden;
-  display: flex;
+  display: block;
+  float: left;
+  width: 33.333%;
 
-  min-width: 200px;
-  max-height: var(--image-reel-height);
+  height: calc(2 * var(--image-reel-height));
 }
-
-
-.imageReel .wide .alignTop {
-  align-items: flex-start;
-}
-
-.imageReel .wide .alignCenter {
-  align-items: center;
-}
-
-.imageReel .wide .alignBottom {
-  align-items: flex-end;
-}
-
 .imageReel .wide a img {
   width: 100%;
-  flex: 0;
+  
+  /**/
 }
-
+@media only screen and (max-width: 768px) { 
+  .imageReel .wide a {
+    width: 50%;
+    height: calc(2 * var(--image-reel-height));
+  }
+  .imageReel .wide a:last-child {
+    width: 100%;
+    height: calc(3 * var(--image-reel-height));
+  }
+}
+@media only screen and (max-width: 540px) { 
+  .imageReel .wide a {
+    width: 50%;
+    height: calc(1.5 * var(--image-reel-height));
+  }
+  .imageReel .wide a:last-child {
+    width: 100%;
+    height: calc(2 * var(--image-reel-height));
+  }
+}
+@media only screen and (max-width: 400px) { 
+  .imageReel .wide a {
+    width: 50%;
+    height: calc(1 * var(--image-reel-height));
+  }
+  .imageReel .wide a:last-child {
+    width: 100%;
+    height: calc(2 * var(--image-reel-height));
+  }
+}
