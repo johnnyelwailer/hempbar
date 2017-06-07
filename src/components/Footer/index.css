@@ -12,3 +12,48 @@
 .phenomicReferenceName {
   font-weight: 100;
 }
+
+:root {
+--image-reel-height: 25vh;
+}
+.imageReel {
+  height: var(--image-reel-height);
+}
+.imageReel .wide {
+  height: var(--image-reel-height);
+  position: absolute;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.imageReel .wide a {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+
+  min-width: 200px;
+  max-height: var(--image-reel-height);
+}
+
+
+.imageReel .wide .alignTop {
+  align-items: flex-start;
+}
+
+.imageReel .wide .alignCenter {
+  align-items: center;
+}
+
+.imageReel .wide .alignBottom {
+  align-items: flex-end;
+}
+
+.imageReel .wide a img {
+  width: 100%;
+  flex: 0;
+}
+

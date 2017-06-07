@@ -18,7 +18,7 @@ const PagesList = ({ pages }) => {
         }
         </ul>
       )
-      : "No posts yet."
+      : ""
     }
     </div>
   )

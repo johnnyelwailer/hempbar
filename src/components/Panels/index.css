@@ -6,3 +6,7 @@
   list-style: none;
   padding: 0;
 }
+
+.listHorizontal > li {
+  min-width: 300px;
+}
