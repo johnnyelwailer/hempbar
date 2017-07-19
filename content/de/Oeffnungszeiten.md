@@ -10,5 +10,5 @@ Sa 10-17h
 So geschlossen  
 
 **Kurierservice**  
-Mo-Sa 9-21h 
+Mo-Sa 10-21h 
 
