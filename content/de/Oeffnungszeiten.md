@@ -2,9 +2,10 @@
 layout: Panel
 title: Öffnungszeiten
 ---
-**Laden**   
-Mo Di Mi & Fr 10-19h  
-Do 10-20h  
+**Laden**
+Mo 12-19h
+Di Mi & Fr 10-19h  
+Do 10-21h  
 Sa 10-17h  
 So geschlossen  
 
