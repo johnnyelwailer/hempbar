@@ -14,3 +14,5 @@ Unternehmensziel und Leitbild ist es, Menschen allen Alters umfassend über den 
 An unserer Saftbar werden aus einer Auswahl an Früchten und Gemüse frisch gepresste Säfte zubereitet. 
 
 Komm vorbei und lass dich verwöhnen!
+  
+Besuchen Sie [unseren Webshop](https://hempbar.shop.beuniq.ch)

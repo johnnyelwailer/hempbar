@@ -14,3 +14,5 @@ Le but de l'entreprise et notre vision est d'informer tout le monde de toute âg
 Notre Saftbar offre des jus pressés tout frais d'une selection individuelle des fruits et des légumes. 
 
 Vient voir et laisse-toi gâter !
+  
+Visitez-nous [au Webshop](https://hempbar.shop.beuniq.ch)
